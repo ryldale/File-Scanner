@@ -1,0 +1,35 @@
+#main-con{
+	position:relative;
+	padding-right: 1em;
+}
+#main-con .con{
+	float:left;
+	width: 100%;
+}
+#header-con{
+	position: relative;
+    margin: 2em 0;
+}
+#header-con h1,#header-con a{
+	float:left;
+	margin-right: 1em !important;
+}
+#header-con h1{
+	margin: 0;
+	font-weight: 400;
+}
+#header-con a{
+	padding: 4px 8px;
+    position: relative;
+    top: -3px;
+    text-decoration: none;
+    border: 1px solid #0071a1;
+    border-radius: 2px;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: normal;
+    color: #0071a1;
+    background: #f3f5f6;
+    cursor: pointer;
+}
