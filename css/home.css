@@ -1,0 +1,132 @@
+.cc-custom-button {
+  background-color: #408bc8 !important;
+  border-color: transparent !important;
+}
+.cc-custom-button:hover {
+  border-color: transparent !important;
+}
+#car-care-new-tab-con {
+  position: relative;
+  display: none;
+  min-height: 11em;
+  background: white;
+}
+#car-care-services li.et_pb_tab_1 {
+  background-color: #eaeaea;
+  display: inline-block;
+  height: 100% !important;
+}
+#car-care-services li.et_pb_tab_1.et_pb_tab_active {
+  padding-bottom: 0;
+}
+#car-care-new-tab-con p {
+  padding: 0.6em 4em;
+  font-weight: bold;
+  float: left;
+  width: 100%;
+  font-size: 0.9em;
+  cursor: pointer;
+  color: #333333;
+}
+#car-care-new-tab-con p.active {
+  color: #408bc8;
+} /* first content */
+.tile-con-main .tile-con {
+  margin: 1em 0;
+}
+.tile-con-main .tile-con .img-con {
+  position: relative;
+  background-color: #eaeaea;
+}
+.tile-con-main .tile-con .img-con,
+.tile-con-main .tile-con .img-con p,
+.tile-con-main .tile-con .img-con p a {
+  height: 120px;
+}
+.tile-con-main .tile-con .img-con p a {
+  display: flex;
+  justify-content: center;
+}
+.tile-con-main .tile-con .img-con p a img {
+  margin: auto;
+}
+.tile-con-main .tile-con .content-con {
+  padding: 1em 2em;
+  min-height: 16em;
+  background-color: #f5fcff;
+}
+.tile-con-main .tile-con .content-con ul {
+  list-style: none;
+}
+.table-title-con {
+  padding: 0.2em 1em;
+  text-align: center;
+  color: white;
+  background-color: #408bc8;
+}
+table tr td {
+  padding: 2em 1em !important;
+}
+#Luzon,
+#Visayas,
+#Mindanao {
+  display: none;
+}
+p img {
+  text-align: center;
+}
+.cc-add {
+  background-image: url(/wp-content/uploads/2023/11/VAPT.png);
+  background-size: 0.6em;
+}
+.cc-time {
+  background-image: url(https://www.petron.com/wp-content/uploads/2021/11/clock.png);
+  background-size: 0.7em;
+}
+.cc-tel {
+  background-image: url(/wp-content/uploads/2023/11/asdf.png);
+  background-size: 0.8em;
+}
+.cc-email {
+  background-image: url(https://www.petron.com/wp-content/uploads/2021/11/email.png);
+  background-size: 0.9em;
+}
+.cc-add,
+.cc-time,
+.cc-tel,
+.cc-email {
+  background-repeat: no-repeat;
+  padding-left: 1.5em;
+  background-position-y: 4px;
+}
+#car-care-services .et_pb_tab_0 .tile-con-main .img-con img {
+  padding-top: 1em;
+}
+#car-care-services .et_pb_row_1 .et_pb_all_tabs .cc-custom-button {
+  font-weight: 400;
+  font-size: 11pt;
+}
+@media only screen and (min-width: 768px) {
+  .tile-con-main {
+    display: flex;
+  }
+  .tile-con-main .tile-con {
+    flex: 1;
+    margin: 1em 2em;
+  }
+}
+@media (max-width: 479px) {
+  .et_pb_tabs_controls li {
+    float: left;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  table tr td {
+    width: 100% !important;
+    float: left;
+  }
+  .et_pb_all_tabs .et_pb_tab {
+    padding: 0 !important;
+  }
+}
