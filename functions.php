@@ -2,6 +2,7 @@
 
 // INCLUDE CONTENTS include(get_stylesheet_directory() . 'FILE_PATH');
 include(get_stylesheet_directory() . '/shortcode/home.php');
+include(get_stylesheet_directory() .'/shortcode/testing.php');
 
 function my_theme_enqueue_styles() { 
  wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
@@ -21,10 +22,11 @@ if(is_admin()){
 	
     function filescanneradmin($hook){
         //Styles
-        wp_enqueue_style( 'filescanner-style', get_stylesheet_directory_uri().'/css/file-scanner.css',array(),null);
+        wp_enqueue_style( 'filescanner-style', get_stylesheet_directory_uri().'/css/file-scanner.css',array(),'3.7.1', null);
 
         //Scripts
         wp_enqueue_script( 'jquery3.7.1-script', 'https://code.jquery.com/jquery-3.7.1.min.js', array(),null);
+        wp_enqueue_script( 'pagination-script',  get_stylesheet_directory_uri().'/js/pagination.js', array ( 'jquery' ),'1.0',true);
         wp_enqueue_script( 'filescanner-script', get_stylesheet_directory_uri().'/js/filescanner.js',array(),null);
         wp_localize_script( 'filescanner-script', 'myAjax', array('ajaxurl' => admin_url('admin-ajax.php')));
    }

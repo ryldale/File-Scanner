@@ -9,6 +9,7 @@ function Images(){
                 <img src="/wp-content/uploads/2023/11/Threat-Intelligence.png" >
                 <img src="/wp-content/uploads/2023/11/Source-Code.png" >
                 <img src="/wp-content/uploads/2023/11/RTE.png" >
+                <img src="/wp-content/uploads/2023/11/Group-76.png" >
                 ');
     
     return ob_get_clean();
